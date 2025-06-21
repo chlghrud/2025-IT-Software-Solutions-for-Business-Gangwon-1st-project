@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace _2025_IT_Software_Solutions_for_Business_Gangwon_1st_project
+namespace _2025_IT_Software_Solutions_for_Business_Gangwon_1st_project.Controll
 {
-    public partial class Form1 : Form
+    public partial class Placeholder : TextBox
     {
-        public Form1()
+        public Placeholder()
         {
             InitializeComponent();
         }

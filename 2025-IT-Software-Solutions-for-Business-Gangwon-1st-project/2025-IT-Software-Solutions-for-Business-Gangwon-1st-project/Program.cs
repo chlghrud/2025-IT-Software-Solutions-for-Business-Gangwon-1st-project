@@ -1,5 +1,4 @@
-﻿using _2025_IT_Software_Solutions_for_Business_Gangwon_1st_project.view;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -17,7 +16,7 @@ namespace _2025_IT_Software_Solutions_for_Business_Gangwon_1st_project
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Login());
+            Application.Run(new Form1());
         }
     }
 }
