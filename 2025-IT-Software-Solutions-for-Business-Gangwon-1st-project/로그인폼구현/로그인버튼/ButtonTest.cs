@@ -1,34 +1,25 @@
-﻿using _2025_IT_Software_Solutions_for_Business_Gangwon_1st_project.Model;
-using _2025_IT_Software_Solutions_for_Business_Gangwon_1st_project.Properties;
+﻿using _2025_IT_Software_Solutions_for_Business_Gangwon_1st_project.Properties;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Drawing.Text;
-using System.IO;
 using System.Linq;
-using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace _2025_IT_Software_Solutions_for_Business_Gangwon_1st_project.view
+namespace _2025_IT_Software_Solutions_for_Business_Gangwon_1st_project.로그인폼구현.로그인버튼
 {
-    public partial class Login : FormBase
+    public partial class ButtonTest : Form
     {
-     
-        public Login()
+        public ButtonTest()
         {
             InitializeComponent();
-            button1.BackColor = Color_Browon;
-            BackColor = Color_Yello;
-            placeholder1.WatermarkText = "TellTok계정";
-            placeholder2.WatermarkText = "비밀번호";
+            button1.BackColor = FormBase.Color_Browon;
         }
 
-       
         private void button1_Click(object sender, EventArgs e)
         {
             Thread t = new Thread(() => {
@@ -39,10 +30,6 @@ namespace _2025_IT_Software_Solutions_for_Business_Gangwon_1st_project.view
                 button1.Image = null;
             });
             t.Start();
-            using (telltokEntities db = new telltokEntities())
-            {
-
-            }
         }
     }
 }

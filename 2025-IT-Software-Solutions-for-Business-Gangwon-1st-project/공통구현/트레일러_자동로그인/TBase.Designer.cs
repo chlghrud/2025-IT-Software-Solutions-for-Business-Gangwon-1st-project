@@ -1,7 +1,7 @@
 ﻿
-namespace _2025_IT_Software_Solutions_for_Business_Gangwon_1st_project
+namespace _2025_IT_Software_Solutions_for_Business_Gangwon_1st_project.공통구현.트레일러_자동로그인
 {
-    partial class FormBase
+    partial class TBase
     {
         /// <summary>
         /// Required designer variable.
@@ -29,17 +29,18 @@ namespace _2025_IT_Software_Solutions_for_Business_Gangwon_1st_project
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormBase));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TBase));
             this.SuspendLayout();
             // 
-            // FormBase
+            // TBase
             // 
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(433, 496);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(622, 450);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "FormBase";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TelkTok-";
+            this.Name = "TBase";
+            this.Text = "TBase";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.TBase_FormClosing);
             this.ResumeLayout(false);
 
         }

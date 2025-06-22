@@ -1,7 +1,7 @@
 ﻿
-namespace _2025_IT_Software_Solutions_for_Business_Gangwon_1st_project
+namespace _2025_IT_Software_Solutions_for_Business_Gangwon_1st_project.공통구현.폰트구현
 {
-    partial class FormBase
+    partial class FontBase
     {
         /// <summary>
         /// Required designer variable.
@@ -29,17 +29,14 @@ namespace _2025_IT_Software_Solutions_for_Business_Gangwon_1st_project
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormBase));
             this.SuspendLayout();
             // 
-            // FormBase
+            // FontBase
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(433, 496);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "FormBase";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TelkTok-";
+            this.ClientSize = new System.Drawing.Size(562, 452);
+            this.Name = "FontBase";
+            this.Text = "FontBase";
             this.ResumeLayout(false);
 
         }

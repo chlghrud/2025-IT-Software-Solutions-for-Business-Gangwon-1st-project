@@ -140,6 +140,42 @@
     <Compile Include="view\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="공통구현\트레일러_자동로그인\TBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="공통구현\트레일러_자동로그인\TBase.Designer.cs">
+      <DependentUpon>TBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="공통구현\트레일러_자동로그인\TLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="공통구현\트레일러_자동로그인\TLogin.Designer.cs">
+      <DependentUpon>TLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="공통구현\트레일러_자동로그인\TMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="공통구현\트레일러_자동로그인\TMain.Designer.cs">
+      <DependentUpon>TMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="공통구현\폰트구현\FontBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="공통구현\폰트구현\FontBase.Designer.cs">
+      <DependentUpon>FontBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="공통구현\폰트구현\FontForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="공통구현\폰트구현\FontForm.Designer.cs">
+      <DependentUpon>FontForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="로그인폼구현\로그인버튼\ButtonTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="로그인폼구현\로그인버튼\ButtonTest.Designer.cs">
+      <DependentUpon>ButtonTest.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Controll\FormBase.resx">
       <DependentUpon>FormBase.cs</DependentUpon>
     </EmbeddedResource>
@@ -150,6 +186,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="view\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="공통구현\트레일러_자동로그인\TBase.resx">
+      <DependentUpon>TBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="공통구현\트레일러_자동로그인\TLogin.resx">
+      <DependentUpon>TLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="공통구현\트레일러_자동로그인\TMain.resx">
+      <DependentUpon>TMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="공통구현\폰트구현\FontBase.resx">
+      <DependentUpon>FontBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="공통구현\폰트구현\FontForm.resx">
+      <DependentUpon>FontForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="로그인폼구현\로그인버튼\ButtonTest.resx">
+      <DependentUpon>ButtonTest.cs</DependentUpon>
     </EmbeddedResource>
     <EntityDeploy Include="Model\Model1.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
@@ -177,9 +231,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="bin\Debug\datafiles\logo\logo\black_icon.ico" />
+    <None Include="bin\Debug\datafiles\logo\logo\Lock-mode-icon.ico" />
+    <Content Include="Resources\black_icon.ico" />
+    <Content Include="Resources\icon.ico" />
+    <Content Include="Resources\Lock-mode-icon.ico" />
+    <Content Include="Resources\login-loding.gif" />
     <None Include="bin\Debug\datafiles\logo\logo\logo.png" />
     <None Include="bin\Debug\datafiles\logo\logo\icon.ico" />
     <None Include="bin\Debug\datafiles\logo\logo\icon_text_.ico" />
+    <None Include="bin\Debug\datafiles\logo\login-loding.gif" />
     <Content Include="icon_text_.ico" />
     <Content Include="Model\Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>

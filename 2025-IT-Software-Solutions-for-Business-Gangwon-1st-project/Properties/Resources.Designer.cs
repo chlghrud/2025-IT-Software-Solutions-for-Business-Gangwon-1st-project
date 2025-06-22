@@ -64,6 +64,16 @@ namespace _2025_IT_Software_Solutions_for_Business_Gangwon_1st_project.Propertie
         /// <summary>
         ///   (아이콘)과(와) 유사한 System.Drawing.Icon 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Icon black_icon {
+            get {
+                object obj = ResourceManager.GetObject("black_icon", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   (아이콘)과(와) 유사한 System.Drawing.Icon 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Icon icon {
             get {
                 object obj = ResourceManager.GetObject("icon", resourceCulture);
@@ -78,6 +88,36 @@ namespace _2025_IT_Software_Solutions_for_Business_Gangwon_1st_project.Propertie
             get {
                 object obj = ResourceManager.GetObject("icon_text_", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   (아이콘)과(와) 유사한 System.Drawing.Icon 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Icon icon_text_1 {
+            get {
+                object obj = ResourceManager.GetObject("icon_text_1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   (아이콘)과(와) 유사한 System.Drawing.Icon 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Icon Lock_mode_icon {
+            get {
+                object obj = ResourceManager.GetObject("Lock_mode_icon", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap login_loding {
+            get {
+                object obj = ResourceManager.GetObject("login_loding", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
